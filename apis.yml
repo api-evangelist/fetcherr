@@ -1,8 +1,33 @@
 aid: fetcherr
 name: Fetcherr
-description: Fetcherr is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fetcherr is an Israel-based AI technology company (founded 2019, Netanya)
+  building generative-AI decision systems for the aviation industry. Its core
+  is the Large Market Model (LMM), a generative model trained on internal
+  airline data plus external signals (competitor prices, demand, weather,
+  events, economic indicators) to forecast markets and drive real-time
+  business decisions. Fetcherr productizes the LMM as a Generative Pricing
+  Engine (GPE) for dynamic airline pricing and as ALPHA, a cloud-based
+  retailing and inventory-management platform that integrates with existing
+  airline PSS and legacy infrastructure. Customers include Delta, Virgin
+  Atlantic, WestJet, Azul, and Viva Aerobus. Fetcherr is an enterprise B2B
+  vendor and does not publish a public developer portal, API documentation,
+  SDKs, or self-serve credentials; integration is delivered directly to
+  airline customers. Added to the API Evangelist network as a
+  battery-ventures portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/fetcherr/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66599e57dce755fa4d35ed57/668a18f1d62e8d9e6894cb2d_Fetcherr%20Opengraph.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +36,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Aviation
+- Airlines
+- Dynamic Pricing
+- Revenue Management
+- Generative AI
+- Travel
+- Pricing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fetcherr-domain-security.yml
+- type: Website
+  url: https://www.fetcherr.io/
+- type: Blog
+  url: https://www.fetcherr.io/blog
+- type: TermsOfService
+  url: https://www.fetcherr.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.fetcherr.io/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/fetcherr
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
