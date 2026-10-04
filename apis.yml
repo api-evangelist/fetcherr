@@ -51,7 +51,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Aviation
 - Airlines
 - Dynamic Pricing
@@ -70,6 +70,7 @@ tags_raw:
 - Generative AI
 - Travel
 - Pricing
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
